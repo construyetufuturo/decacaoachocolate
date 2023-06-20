@@ -1,0 +1,200 @@
+<div class="contenedor-swiper-cards" id="contenedor-swiper">
+                        <swiper-container class="mySwiper-cards" init="false" grab-cursor="true">
+                            <swiper-slide class="slide-cards">
+                               
+                                <figure class="perfil-img1-container perfil-img-container">
+                                    
+                                </figure>
+                               
+                                <div class="contenido-texto">
+                                    <article>
+                                    <h3>Productores de cacao</h3>
+                                        Tienes una cercania bastante amplia de la materia prima que es el cacao.
+                                    </article>
+                                    <div class="indicacionflecha">
+                                        <!-- <p>Ver más</p> -->
+                                    <!-- <i class="fa fa-arrow-right " aria-hidden="true"></i> -->
+                                    </div>
+                                </div>
+                            </swiper-slide>
+                            
+                            <swiper-slide class="slide-cards">
+                                
+                                <figure class="perfil-img2-container perfil-img-container">
+                                    <!-- <img src="img/person3.jpg" alt="persona decaida" /> -->
+                                </figure>
+                                
+                                <div class="contenido-texto">
+                                    <article>
+                                    <h3>Emprendedores o Profesionales</h3>
+                                    Estas buscando una gran oportunidad que crear tu propia marca de chocolate
+                                        
+                                    </article>
+                                </div>
+                         
+                            </swiper-slide>
+                            <swiper-slide class="slide-cards">
+                                
+                                
+                                        <figure class="perfil-img3-container perfil-img-container">
+                                            <!-- <img src="img/person2-min.jpg" alt="discusion" /> -->
+                                          </figure>
+                                    
+                                    <div class="contenido-texto">
+                                        <article>
+                                        <h3>Chefs o amantes del chocolate</h3>
+                                        Trabajas con el chocolate y te gustaria conocerlo mejor, entenderlo y porque no hacer tu propio chocolate 
+                                        acorde a los requerimientos o necesidades deseados en el arte culinario.
+                                        </article>
+                                    </div>
+                                
+                            </swiper-slide>
+                        
+                        </swiper-container>
+                       
+                        <div class="container-hand">
+                            <div class="handswipe">
+                            
+                                <img src="img/swipehand.png" />
+                            </div>
+                            <h2 style="font-size: .8rem; color: gray;">Desliza</h2>
+                        </div>
+                    </div>
+
+
+<div class="contenedor-swiper-cards" id="contenedor-swiper">
+                        <swiper-container init="false" class="mySwiper-lograras">
+                            <swiper-slide class="slide-logro">
+                                
+                                    <figure class="perfil-img-container logro-img1-container">
+                                        <!-- <img src="img/personlogrobg.jpg" alt="persona animada" /> -->
+                                    </figure>
+                                
+                                <div class="contenido-texto">
+                                    <article>
+                                        
+                                        <h3 class="n-service">
+                                        </span>¿Te has preguntado porque hay personas que no se rinden?</h3>
+                                        Su secreto reside en que saben gestionar sus emociones ante el fracaso o rechazo,
+                                        los grandes resultados son producto de intentarlo hasta lograrlo.
+                                    </article>
+                                    <!-- <div class="indicacionflecha">
+                                        <p>Ver más</p>
+                                    <i class="fa fa-arrow-right "  aria-hidden="true"></i>
+                                    </div> -->
+                                    
+                                </div>
+                                    
+                            </swiper-slide>
+                            <swiper-slide class="slide-logro">
+                                
+                                    <figure class="perfil-img-container logro-img2-container">
+                                        <!-- <img src="img/personlogro1.jpg" alt="persona animada" /> -->
+                                    </figure>
+                                
+                                <div class="contenido-texto">
+                                    <article>
+                                        <h3 class="n-service">
+                                        </span>Una vida más sana con tu cuerpo y mente</h3>
+                                        El cuerpo habla y si constamente te enfermas, está tratando de decirte algo
+                                        ¡Ten mucho ciudado! no rechaces tus emociones, no las reprimas, gestionalas.
+                                    </article>
+                                </div>
+                                <!-- <p>2</p> -->
+                            </swiper-slide>
+                            <swiper-slide class="slide-logro">
+                               
+                                    <figure class="perfil-img-container logro-img3-container">
+                                        <!-- <img src="img/personlogro3.jpg" alt="persona animada" /> -->
+                                    </figure>
+                                
+                                <div class="contenido-texto">
+                                    <article> 
+                                        <h3 class="n-service">
+                                        </span>Evita inconvenientes por falta de asertividad</h3>
+                                        Dirás lo que te molestó de la forma correcta y en el momento correcto,
+                                        Quedarte callado/a o silenciar tus emociones no es ser asertivo,
+                                        Reclamar con agresividad tampoco lo es. 
+                                    </article>
+                                </div>
+                                <!-- <p>3</p> -->
+                            </swiper-slide>
+                            <swiper-slide class="slide-logro">
+                               
+                                    <figure class="perfil-img-container logro-img4-container">
+                                        <!-- <img src="img/personlogro4-min.jpg" alt="persona animada" /> -->
+                                    </figure>
+                                
+                                <div class="contenido-texto">
+                                    <article>
+                                        <h3 class="n-service">
+                                        </span>Un gran secreto del éxito</h3>
+                                        Cuándo aprendes a ver las cosas desde el punto de vista de los demas,
+                                        eres mas influyente, tener mas aliados es indispensable para subir de nivel.
+                                        ¿Te gustaria ser parte del top de la poblacion que puede hacerlo?
+                                        
+                                    </article>
+                                </div>
+                                <!-- <p>4</p> -->
+                            </swiper-slide>
+                            <swiper-slide class="slide-logro">
+                               
+                                    <figure class="perfil-img-container logro-img5-container">
+                                        <!-- <img src="img/personlogrobg.jpg" alt="persona animada" /> -->
+                                    </figure>
+                                
+                                <div class="contenido-texto">
+                                    <article>
+                                        <h3 class="n-service">
+                                        </span>Enfrenta desafíos efectivamente</h3>
+                                        No todo tiene que ser perfecto y lleno de alegría o felicidad,
+                                        el truco está en conocer como debes responder a cada situacion,
+                                        el día a día nos presenta desafios. 
+                                    </article>
+                                </div>
+                                <!-- <p>5</p> -->
+                            </swiper-slide>
+                            <swiper-slide class="slide-logro">
+                                
+                                    <figure class="perfil-img-container logro-img6-container">
+                                        <!-- <img src="img/personlogro1.jpg" alt="persona animada" /> -->
+                                    </figure>
+                                
+                                <div class="contenido-texto">                                    
+                                    <article>
+                                        <h3 class="n-service">
+                                        </span>Relaciones sanas</h3>
+                                        ¿Prometiste cambiar? Evita dejarte llevar por tus impulsos
+                                        Ahórrate problemas, avanza en tu vida más rápido  y con menos esfuerzo.
+                                        Conocete mejor y podras conocer mejor al resto de personas.
+                                    </article>
+                                </div>
+                                
+                            </swiper-slide>
+                            <swiper-slide class="slide-logro">
+                                
+                                    <figure class="perfil-img-container logro-img7-container">
+                                        <!-- <img src="img/personlogro2.jpg" alt="persona animada" /> -->
+                                    </figure>
+                               
+                                <div class="contenido-texto">                                    
+                                    <article>
+                                        <h3 class="n-service">
+                                        </span>No mas proclastinacion</h3>
+                                        Aprende a gestionar una posible emoción que percibes como negativa producto de una tarea o acción que estás postergando, la más común es el miedo.
+                                    </article>
+                                </div>
+                                
+                            </swiper-slide>
+                            
+                            
+                        </swiper-container>
+                        <div class="container-hand">
+                            <div class="handswipe">
+                        
+                                <img src="img/swipehand.png" alt="Desliza la imagen" />
+                            </div>
+                            <h2 style="font-size: .8rem; color: gray;">Desliza</h2>
+                        </div>
+                        
+                    </div>

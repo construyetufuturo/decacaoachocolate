@@ -1,0 +1,44 @@
+/* Player */
+.video-conteiner .player {
+    background-color: rgb(190, 114, 14);
+    box-shadow: 2px 2px 1rem black;
+    max-width: 1280px;
+    min-width: 320px;
+}
+
+.video-conteiner .video {
+    width: 100%;
+    cursor: pointer;
+}
+
+/* Controls */
+.video-conteiner .controls {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+.controls .stop{
+    visibility: hidden;
+}
+.video-conteiner .controls > * {
+    cursor: pointer;
+}
+
+.video-conteiner .button-video{
+    background-color: transparent;
+    border: none;
+}
+
+.video-conteiner .button i {
+    font-size: 2rem;
+}
+
+.progress-video {
+    flex-grow: 2;
+}
+
+.video-conteiner .timestamp {
+    font-size: 1.2rem;
+}
