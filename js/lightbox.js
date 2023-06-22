@@ -105,14 +105,14 @@ window.addEventListener('scroll',mostrarprogressbar);
 function aumentadata(porentaje){
     spandata.dataset.width=`${porentaje}% `;
 }
-var porcentajevalor =73;
+var porcentajevalor =68;
 aumentadata(porcentajevalor);
 var temporizador = setInterval(function(){
     let scrollTop = document.documentElement.scrollTop;
     let alturaAnimado = contenedorbar.offsetTop;
     let valorscroll = scrollTop-alturaAnimado;
     console.log(valorscroll);
-    if(porcentajevalor<92 && (0<valorscroll<500)){
+    if(porcentajevalor<87 && (0<valorscroll<500)){
         aumentadata(porcentajevalor);
         mostrarprogressbar();
         porcentajevalor++;
@@ -127,7 +127,7 @@ const activarhidemain = setTimeout(function(){
     hidemain.forEach((i)=>{
         i.classList.toggle('hidemain')
     });;
-},60000);
+},65000);
 // HIDE MAIN TOGGLE END
 
 

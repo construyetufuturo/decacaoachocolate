@@ -213,7 +213,7 @@ header{
 #cantidadpersonasoferta, #mensajecompraciudad{
     color: #fff;
     text-align: center;
-    font-size: 1.25rem;
+    font-size: .9rem;
     padding: .8rem .3rem;
     border: 1px solid var(--btn-color);
     margin: .5rem 0;
@@ -254,28 +254,28 @@ header{
     border-bottom-left-radius: 20px;
 }
 .contenedor .titulo{
-    font-size:2.5rem;
+    font-size:2.3rem;
     margin-bottom: 2.5rem;
-    color: white; text-shadow: black 0.1em 0.1em 0.2em;
+    color: white; 
+    /* text-shadow: black 0.1em 0.1em 0.2em; */
     font-weight: 700;
     letter-spacing: -.025em;
-    line-height: 2.6rem;
+    line-height: 2.4rem;
     padding: 8px 18px;
     
 }
 .contenedor .titulo span{
-    color:#f1b510;
+    color:var(--btn-color);
 }
 
 .contenedor .copy{
     border-radius: 10px;
-    padding-top: 15px;
     width: 60%;
     font-weight: 300;
     font-size:  1.125rem;
     font-weight: 200;
     /* color: #f4f98f; */
-    color: #f0f1a6;
+    color: #fff;
     /* color: #f2f2f2; */
     margin-right: auto;
     margin-left: auto;
@@ -748,9 +748,15 @@ a:link, a:visited, a:active {
 
 .contenedor-galeria{
     display: flex;
-    justify-content: space-evenly;
     flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
+.contenedor-galeria img{
+    object-fit: contain;
+}
+
 .img-galeria{
     object-fit: cover; /*resposive*/
     width: 30%;
@@ -1245,6 +1251,7 @@ footer{
     .header .copy{
         width: 100%;
         padding-bottom: 60px;
+        padding-top: 15px;
     }
     
     .anuncio h1{
@@ -1375,7 +1382,10 @@ footer{
     .enunciado-perfil .checklist-servicio-perfil{
         width: 80%;
     }
-    
+    .contenedor .titulo{
+        font-size: 1.8rem;
+        line-height: 1.9rem;
+    }
     
 }
 @media screen and (max-width: 768px) {
@@ -1405,7 +1415,9 @@ footer{
     .gatillo-progress-bar .progress-container .progress-bar span{
         font-size: 12px;
     }
-    
+    .contenedor-galeria #larga{
+        width: 100%;
+    }
 }
 @media screen and (max-width:500px){
     .contenedor{
@@ -1482,7 +1494,14 @@ footer{
     .header{
         /* background-image: none;
         background-color: #06171a; */
-        height: max-content;
+        height: 30vh;
+    }
+    .header-container .copy{
+        padding-bottom: 1.9rem;
+    }
+    .contenedor .titulo{
+        font-size: 1.6rem;
+        line-height: 1.7rem;
     }
     
     
@@ -1530,10 +1549,7 @@ footer{
         width: 100%;
         height: 50%;
     }
-    .contenedor .titulo{
-        font-size: 1.2rem;
-        line-height: 1.4rem;
-    }
+    
     
     .logros-section .checklist-servicio, .perfil-cliente-section .checklist-servicio{
         width: 100%;
@@ -1548,8 +1564,15 @@ footer{
     .enunciado-perfil .checklist-servicio-perfil{
         width: 100%;
     }
-}
 
+}
+@media screen and (max-width:400px){
+    .header-container .titulo {
+        font-size: 1.25rem;
+        line-height: 1.3rem;
+    }
+    
+}
 @media screen and (max-width: 300px) {
     
     header img{
@@ -1568,9 +1591,6 @@ footer{
         left: 20px;
     }
     
-    .titulo span{
-        display: none;
-    }
     .subtitulo{
         font-size: 20px;
     }
@@ -1593,7 +1613,7 @@ footer{
         width: 100%;
         height: 300px;
     }
-    .producto-section img {
+    .producto-section img ,.contenedor-galeria img{
         width: 100%;
     }
     .circular-progress{
@@ -1607,9 +1627,8 @@ footer{
     .logo{
         margin: 0 auto;
     }
-    .contenedor .titulo{
-        font-size: 1.5rem;
-        line-height: 1.6rem;
+    header{
+        height: auto;
     }
     .contenedor .perfil-img-container{
         background-size: contain;
