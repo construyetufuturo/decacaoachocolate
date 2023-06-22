@@ -41,6 +41,9 @@ body{
 .hidemain{
     display: none;
 }
+.contenedor .hidemain{
+    display: none;
+}
 .contenedor{
     width: 80%;
     max-width: 1200px;
@@ -50,9 +53,8 @@ body{
 }
 
 header{
-    height: auto;
-    background-image: linear-gradient(to right, rgba(67, 67, 67,0.5) 0%, rgba(0, 0, 0,.5) 100%),url(img2/bg1.jpg);
-    background-size: cover;
+    height: 40vh;
+    background-color: #f1b510;
 }
 
 .video-section {
@@ -154,7 +156,6 @@ header{
     text-align: center;
     font-size: .9rem;
     color: #c5c8dc;
-    display: none;
 }
 /*  */
 /*  */

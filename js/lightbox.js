@@ -122,11 +122,11 @@ var temporizador = setInterval(function(){
 // PROGRESS HORIZONTAL BAR END
 
 // HIDE MAIN TOGGLE START
-var hidemain = document.getElementById('hidemain');
-var hidefooter = document.getElementById('contacto');
+var hidemain = document.querySelectorAll('#hidemain');
 const activarhidemain = setTimeout(function(){
-    hidemain.classList.toggle('hidemain');
-    hidefooter.classList.toggle('hidemain');
+    hidemain.forEach((i)=>{
+        i.classList.toggle('hidemain')
+    });;
 },60000);
 // HIDE MAIN TOGGLE END
 
