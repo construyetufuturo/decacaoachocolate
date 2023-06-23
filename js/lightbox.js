@@ -132,3 +132,26 @@ const activarhidemain = setTimeout(function(){
 
 
 
+// date to contact us
+function agregarFechaEnFooter() {
+    var fechaActual = new Date();
+    var dia = fechaActual.getDate();
+    var mes = fechaActual.getMonth() + 1; // Los meses en JavaScript van de 0 a 11
+    var año = fechaActual.getFullYear();
+    
+    // Formatear la fecha con ceros a la izquierda si es necesario
+    var diaFormateado = dia < 10 ? '0' + dia : dia;
+    var mesFormateado = mes < 10 ? '0' + mes : mes;
+    
+    var fechaFormateada = diaFormateado + '/' + mesFormateado + '/' + año;
+    
+    // Obtener el elemento HTML por su ID
+    var elementoFecha = document.getElementById('fechaenfooter');
+    
+    // Agregar la fecha al contenido del elemento
+    elementoFecha.textContent = fechaFormateada;
+  }
+  
+  // Llamar a la función para agregar la fecha al cargar la página
+  agregarFechaEnFooter();
+  
