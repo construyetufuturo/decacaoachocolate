@@ -36,34 +36,30 @@ const aparecerImagen = (imagen)=>{
 // lighbox galeria end
 // 
 // disable right clic
-// function disableIE() {
-//     if (document.all) {
-//         return false;
-//     }
-// }
-// function disableNS(e) {
-//     if (document.layers || (document.getElementById && !document.all)) {
-//         if (e.which==2 || e.which==3) {
-//             return false;
-//         }
-//     }
-// }
-// if (document.layers) {
-//     document.captureEvents(Event.MOUSEDOWN);
-//     document.onmousedown = disableNS;
-// } 
-// else {
-//     document.onmouseup = disableNS;
-//     document.oncontextmenu = disableIE;
-// }
-// document.oncontextmenu=new Function("return false");
+function disableIE() {
+    if (document.all) {
+        return false;
+    }
+}
+function disableNS(e) {
+    if (document.layers || (document.getElementById && !document.all)) {
+        if (e.which==2 || e.which==3) {
+            return false;
+        }
+    }
+}
+if (document.layers) {
+    document.captureEvents(Event.MOUSEDOWN);
+    document.onmousedown = disableNS;
+} 
+else {
+    document.onmouseup = disableNS;
+    document.oncontextmenu = disableIE;
+}
+document.oncontextmenu=new Function("return false");
 
 
-// progress bar
-// spanprogress.forEach((span)=>{
-//     span.style.width = span.dataset.width;
-//     span.innerHTML = span.dataset.width;
-// })
+
 
 // TOTAL SLIDER MESSAGE START
 function contarSlider(){
@@ -133,25 +129,26 @@ const activarhidemain = setTimeout(function(){
 
 
 // date to contact us
-function agregarFechaEnFooter() {
-    var fechaActual = new Date();
-    var dia = fechaActual.getDate();
-    var mes = fechaActual.getMonth() + 1; // Los meses en JavaScript van de 0 a 11
-    var año = fechaActual.getFullYear();
+function agregarFechaEnFooter(idelemento) {
+    let fechaActual = new Date();
+    let dia = fechaActual.getDate();
+    let mes = fechaActual.getMonth() + 1; // Los meses en JavaScript van de 0 a 11
+    let año = fechaActual.getFullYear();
     
     // Formatear la fecha con ceros a la izquierda si es necesario
-    var diaFormateado = dia < 10 ? '0' + dia : dia;
-    var mesFormateado = mes < 10 ? '0' + mes : mes;
+    let diaFormateado = dia < 10 ? '0' + dia : dia;
+    let mesFormateado = mes < 10 ? '0' + mes : mes;
     
-    var fechaFormateada = diaFormateado + '/' + mesFormateado + '/' + año;
+    let fechaFormateada = diaFormateado + '/' + mesFormateado + '/' + año;
     
     // Obtener el elemento HTML por su ID
-    var elementoFecha = document.getElementById('fechaenfooter');
+    let elementoFecha = document.getElementById(idelemento);
     
     // Agregar la fecha al contenido del elemento
     elementoFecha.textContent = fechaFormateada;
   }
   
   // Llamar a la función para agregar la fecha al cargar la página
-  agregarFechaEnFooter();
+  agregarFechaEnFooter('fechaenfooter');
+  agregarFechaEnFooter('fechaenpreguntas');
   
