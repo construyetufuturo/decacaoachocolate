@@ -3,7 +3,7 @@
     simplyCountdown('#cuenta', {
         year: 2023, // required
         month: date.getMonth()+1, // required
-        day: date.getDate()+1, // required
+        day: date.getDate()+2, // required
         hours: 4, // Default is 0 [0-23] integer
         minutes: 44, // Default is 0 [0-59] integer
         seconds: 0, // Default is 0 [0-59] integer

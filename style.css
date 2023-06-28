@@ -54,7 +54,7 @@ body{
 
 header{
     height: 40vh;
-    background-color: #f1b510;
+    background-color: #fff;
 }
 
 .video-section {
@@ -275,7 +275,7 @@ header{
     font-size:  1.125rem;
     font-weight: 200;
     /* color: #f4f98f; */
-    color: #fff;
+    color: #111;
     /* color: #f2f2f2; */
     margin-right: auto;
     margin-left: auto;
@@ -344,15 +344,15 @@ a:link, a:visited, a:active {
     font-size: 12px;
     color: var(--countdowncolor);
 }
-.simply-hours-section,.simply-minutes-section,.simply-seconds-section{
+.simply-hours-section,.simply-minutes-section,.simply-seconds-section,.simply-days-section{
     text-align: center;
     margin: 0 8px;
     
 }
 
-.simply-days-section{
+/* .simply-days-section{
     display: none;
-}
+} */
 
 /*  */
 /* Anuncio */
@@ -527,13 +527,13 @@ a:link, a:visited, a:active {
     /* box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em; */
     
 }
-.tiempo-limitado-section h2{
+.tiempo-limitado-h2 h2{
+    background-color: #111;
     text-align: center;
     color: var(--countdowncolor);
     font-weight: 900;
     font-family: 'Poppins',sans-serif;
-    margin-bottom: 12px;
-    
+    padding: .7rem;
     
 }
 .tiempo-limitado-section #cuenta{
