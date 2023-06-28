@@ -127,7 +127,7 @@ const activarmensajelive = setTimeout(function(){
 },15000);
 const activarhidemain = setTimeout(function(){
     hidemain.classList.toggle('hidemain');
-},59000);
+},25000);
 // HIDE MAIN TOGGLE END
 
 
