@@ -1,5 +1,5 @@
-var min = 140;
-var max = 156;
+var min = 135;
+var max = 160;
 var cantidadpersonas =getRndInteger(min, max);
 var cantidadcompradores = 8;
 var totalcupos=43;
