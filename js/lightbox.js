@@ -35,7 +35,7 @@ const aparecerImagen = (imagen)=>{
 }
 // lighbox galeria end
 // 
-// disable right clic
+//**** disable right clic ****
 function disableIE() {
     if (document.all) {
         return false;
@@ -103,27 +103,31 @@ function aumentadata(porentaje){
 }
 var porcentajevalor =68;
 aumentadata(porcentajevalor);
-var temporizador = setInterval(function(){
-    let scrollTop = document.documentElement.scrollTop;
-    let alturaAnimado = contenedorbar.offsetTop;
-    let valorscroll = scrollTop-alturaAnimado;
-    console.log(valorscroll);
-    if(porcentajevalor<87 && (0<valorscroll<500)){
-        aumentadata(porcentajevalor);
-        mostrarprogressbar();
-        porcentajevalor++;
-    }
-},9000);
+var temporizador = setTimeout(function(){
+    setInterval(function(){
+        let scrollTop = document.documentElement.scrollTop;
+        let alturaAnimado = contenedorbar.offsetTop;
+        let valorscroll = scrollTop-alturaAnimado;
+        console.log(valorscroll);
+        if(porcentajevalor<87 && (0<valorscroll<500)){
+            aumentadata(porcentajevalor);
+            mostrarprogressbar();
+            porcentajevalor++;
+        }
+    },12000)
+},120000);
 
 // PROGRESS HORIZONTAL BAR END
 
 // HIDE MAIN TOGGLE START
-var hidemain = document.querySelectorAll('#hidemain');
+var hidemain = document.getElementById('hidemain');
+var mensajelive = document.getElementById('hidemensajeaviso');
+const activarmensajelive = setTimeout(function(){
+    mensajelive.classList.toggle('hidemensajeaviso');
+},15000);
 const activarhidemain = setTimeout(function(){
-    hidemain.forEach((i)=>{
-        i.classList.toggle('hidemain')
-    });;
-},65000);
+    hidemain.classList.toggle('hidemain');
+},59000);
 // HIDE MAIN TOGGLE END
 
 
