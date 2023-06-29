@@ -101,7 +101,7 @@ window.addEventListener('scroll',mostrarprogressbar);
 function aumentadata(porentaje){
     spandata.dataset.width=`${porentaje}% `;
 }
-var porcentajevalor =68;
+var porcentajevalor =72;
 aumentadata(porcentajevalor);
 var temporizador = setTimeout(function(){
     setInterval(function(){
@@ -124,10 +124,10 @@ var hidemain = document.getElementById('hidemain');
 var mensajelive = document.getElementById('hidemensajeaviso');
 const activarmensajelive = setTimeout(function(){
     mensajelive.classList.toggle('hidemensajeaviso');
-},15000);
+},10000);
 const activarhidemain = setTimeout(function(){
     hidemain.classList.toggle('hidemain');
-},25000);
+},15000);
 // HIDE MAIN TOGGLE END
 
 
